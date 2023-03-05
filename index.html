@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>CarRental</title>
+
+    <!-- links -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- começo header -->
+    <header class="header">
+
+        <div id="botao_menu" class="fas fa-bars"></div>
+
+        <a href="#inicio" class="logo"> <span>Alugar</span>Carros </a>
+
+        <nav class="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#veiculos">Veículos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#destaques">Destaques</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div id="botao_login">
+            <button class="botao">Login</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+    <!-- final header -->
+    
+
+    <!-- form de login inicio -->
+    <div class="login_form">
+
+        <span class="fas fa-times" id="fechar_login_form"></span>
+
+        <form action="">
+            <h3>login de usuário</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="senha" class="box">
+            <p>esqueceu sua senha? <a href="#">clique aqui</a></p>
+            <input type="submit" value="login" class="botao">
+            <p>ou faça login com</p>
+            <div class="botoes">
+                <a href="#" class="botao">google</a>
+                <a href="#" class="botao">facebook</a>
+            </div>
+            <p>não tem uma conta? <a href="#">criar uma</a></p>
+        </form>
+    </div>
+    <!-- form de login final -->
+
+
+    <!-- Inicio Página Inicio -->
+    <section class="inicio" id="inicio">
+        <h3 class="inicio_parallax" data-speed="-2">ache seu carro</h3>
+        <img class="inicio_parallax" data-speed="5" src="image/home-img.png" alt="">
+        <a href="#" class="botao inicio_parallax" data-speed="7">explorar carros</a>
+    </section>
+    <!-- Final Página Inicio -->
+
+
+    <!-- icones inicio -->
+    <section class="icones_container">
+
+        <div class="icones">
+            <i class="fas fa-home"></i>
+                <div class="conteudo">
+                    <h3>150+</h3>
+                    <p>filiais </p>
+                </div>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-car"></i>
+                <div class="conteudo">
+                    <h3>4770+</h3>
+                    <p>carros vendidos</p>
+                </div>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-users"></i>
+                <div class="conteudo">
+                    <h3>590+</h3>
+                    <p>clientes satisfeitos</p>
+                </div>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-car"></i>
+                <div class="conteudo">
+                    <h3>890+</h3>
+                    <p>novos carros</p>
+                </div>
+        </div>
+
+    </section>
+    <!-- icones final -->
+
+
+    <!-- pagina de veiculos inicio -->
+
+    <section class="veiculos" id="veiculos">
+
+        <h1 class="heading"> veículos <span>populares</span> </h1>
+
+        <div class="swiper deslizar-veiculos">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-1.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche 911 carrera s cabriolet 2017</h3>
+                        <div class="preco"> <span>preço: </span> R$14.589 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 3.0 V6
+                            <span class="fas fa-circle"></span> 306 Km/h
+                            <span class="fas fa-circle"></span> 420hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-2.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche panamera 2016</h3>
+                        <div class="preco"> <span>preço: </span> R$13.439 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 3.6 V6
+                            <span class="fas fa-circle"></span> 264 Km/h
+                            <span class="fas fa-circle"></span> 330hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-3.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche panamera 4S 2012</h3>
+                        <div class="preco"> <span>preço: </span> R$9.789 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 4.8 V8
+                            <span class="fas fa-circle"></span> 282 Km/h
+                            <span class="fas fa-circle"></span> 400hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-4.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche cayman 2015</h3>
+                        <div class="preco"> <span>preço: </span> R$12.329 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 2.7 V6
+                            <span class="fas fa-circle"></span> 283 Km/h
+                            <span class="fas fa-circle"></span> 275hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-5.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche boxter S 2014</h3>
+                        <div class="preco"> <span>preço: </span> R$10.689 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 3.4 V6
+                            <span class="fas fa-circle"></span> 277 Km/h
+                            <span class="fas fa-circle"></span> 315hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-6.png" alt="">
+                    <div class="conteudo">
+                        <h3>porsche cayenne 2010</h3>
+                        <div class="preco"> <span>preço: </span> R$8.419 </div>
+                        <p>
+                            <span class="fas fa-circle"></span> automática
+                            <span class="fas fa-circle"></span> 4.8 V8
+                            <span class="fas fa-circle"></span> 250 Km/h
+                            <span class="fas fa-circle"></span> 385hp
+                        </p>
+                        <a href="#" class="botao">confira</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- pagina de veiculos final -->
+
+    
+    <!-- pagina de Serviços inicio -->
+
+    <section class="servicos" id="servicos">
+        <h1 class="heading"> nossos <span>serviços</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>venda de carros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>reparo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>seguro</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>troca de bateria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>troca de oleo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>suporte 24/7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Esse officiis et sint ut velit deleniti recusandae veritatis 
+                   perferendis nesciunt quisquam cumque ex, ducimus est numquam!
+                   Vero accusantium amet sunt ullam.</p>
+                   <a href="#" class="botao">veja mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- pagina de Serviços final -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- link do script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
